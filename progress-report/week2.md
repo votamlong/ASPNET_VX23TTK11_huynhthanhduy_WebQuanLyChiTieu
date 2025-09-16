@@ -1,15 +1,23 @@
-# Báo cáo tiến độ tuần 2 (13/9/2025 - 20/9/2025)
-## Tiến độ hoàn thành
-- **Cải thiện giao diện và tính năng**:
-  - Thêm biểu đồ cột bằng Chart.js vào trang `report.php` để hiển thị tổng chi tiêu theo danh mục và tháng.
-  - Tối ưu giao diện trên tất cả các trang (responsive design) để phù hợp với cả desktop và mobile.
-- **Tích hợp tính năng mới**:
-  - Thêm chức năng tìm kiếm chi tiêu theo ngày hoặc danh mục trong `list.php`.
-  - Cập nhật cơ sở dữ liệu để hỗ trợ lọc dữ liệu nhanh hơn.
+📌 Báo cáo tiến độ tuần 2
 
-## Kết quả đạt được
-- Ứng dụng quản lý chi tiêu đã có giao diện trực quan hơn với biểu đồ và khả năng tìm kiếm.
-- Các tính năng mới được kiểm tra và hoạt động ổn định trên môi trường local.
+Thời gian: 13/09/2025 – 20/09/2025
 
-## Ghi chú
-- Tất cả công việc sẽ được hoàn thành và commit trước 20/9/2025 để đảm bảo đúng hạn tuần 2.
+✅ Công việc đã hoàn thành
+
+Thêm chức năng Đăng nhập/Đăng ký người dùng.
+
+Áp dụng mã hóa mật khẩu (hash + salt) để tăng cường bảo mật.
+
+Cải tiến giao diện với Bootstrap 5.3.3, bổ sung các form và bảng hiển thị đẹp hơn.
+
+Hoàn thiện chức năng Thêm chi tiêu và hiển thị danh sách chi tiêu từ database.
+
+Tạo cấu trúc thư mục progress-report để lưu trữ báo cáo tiến độ hàng tuần.
+
+🔄 Cập nhật dự án
+
+Tích hợp Entity Framework Code First để quản lý bảng ChiTieu và Users.
+
+Thêm dữ liệu mẫu vào cơ sở dữ liệu để kiểm thử.
+
+Chỉnh sửa Controller và View để kết nối dữ liệu thực tế.
