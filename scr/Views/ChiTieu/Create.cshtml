@@ -1,0 +1,11 @@
+﻿@model WebQuanLyChiTieu.Models.ChiTieu
+
+<h2>Thêm chi tiêu</h2>
+
+@using (Html.BeginForm())
+{
+    <p>Ngày: @Html.TextBoxFor(m => m.Ngay, new { type = "date" })</p>
+    <p>Nội dung: @Html.TextBoxFor(m => m.NoiDung)</p>
+    <p>Số tiền: @Html.TextBoxFor(m => m.SoTien)</p>
+    <p><input type="submit" value="Lưu" /></p>
+}

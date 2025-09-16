@@ -1,0 +1,21 @@
+﻿@model List<WebQuanLyChiTieu.Models.ChiTieu>
+
+<h2>Danh sách chi tiêu</h2>
+<p>
+    @Html.ActionLink("Thêm chi tiêu mới", "Create")
+</p>
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Ngày</th>
+        <th>Nội dung</th>
+        <th>Số tiền</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Ngay.ToString("dd/MM/yyyy")</td>
+            <td>@item.NoiDung</td>
+            <td>@item.SoTien</td>
+        </tr>
+    }
+</table>
